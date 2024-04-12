@@ -58,13 +58,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
   
   {/* If you want to run one specific app, uncomment the import of the component and
-    place it here: */}
+place it here: */}
 
     {/* <MainApp /> */}
     {/* <CounterApp /> */}
     {/* <CounterWithCustomHook /> */}
     {/* <FormWithCustomHook /> */}
     {/* <FocusScreen /> */}
+    {/* <CallbackHook /> */}
     {/* <CallbackHook /> */}
     <TodoApp/>
   </BrowserRouter>

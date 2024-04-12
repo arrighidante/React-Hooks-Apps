@@ -1,8 +1,38 @@
-# React + Vite
+# :books: React Hooks Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a collection of mini apps that uses React Hooks. You can use them to speed up your development or learning purposes.
 
-Currently, two official plugins are available:
+## :file_folder: Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The repository contains the following examples Apps:
+
+1. \`useState\`: Two different Counter App: One with useState and the other with a custom hook called useCounter.
+2. \`useEffect\`: MessageApp, SimpleForm and FormWithCustomHook (which uses useForm custom hook).
+
+
+## :wrench: How to Use
+
+To use any of these Apps, simply make sure you've uncommented the corresponding import of the component you want to run in main.jsx:
+
+Example: In the main.jsx
+```
+import { TodoApp } from './08-useReducer/TodoApp';
+```
+
+Then, you can use the component as follows:
+
+```
+  <BrowserRouter>
+    {/* <MainApp /> */}
+    {/* <CounterApp /> */}
+    {/* <CounterWithCustomHook /> */}
+    {/* <FormWithCustomHook /> */}
+    {/* <FocusScreen /> */}
+    {/* <CallbackHook /> */}
+    <TodoApp/> {/* TodoApp will be rendered */}
+  </BrowserRouter>
+```
+
+## :bulb: Contributing
+
+If you have an idea, an improvement or if you detect a bug, feel free to open an Issue or a Pull Request.
